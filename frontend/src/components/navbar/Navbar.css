@@ -1,0 +1,68 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.nav-logo{
+  height: 30px;
+}
+
+.navbar ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar ul li{
+  color: #49557e;
+  cursor: pointer;
+}
+
+.nav-right{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav-right img{
+  height: 20px;
+  cursor: pointer;
+}
+
+.nav-right button{
+  border: 1px solid #49557e;
+  border-radius: 20px;
+  padding: 10px 20px;
+  background-color: transparent;
+  outline: 0;
+  color: #49557e;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav-right button:hover{
+  background-color: #e0e0e0;
+}
+
+.active{
+  padding: 0 0 2px;
+  border-bottom: 2px solid #49557e;
+}
+
+.basket{
+  position: relative;
+}
+
+.dot{
+  position: absolute;
+  background-color: #ff4c24;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  right: -8px;
+  top: -8px;
+}
+

@@ -1,0 +1,19 @@
+.food-display{
+  width: 100%;
+}
+
+.food-display h2, p{
+  color: black;
+}
+
+.food-display h2{
+  font-size: 2vw;
+  margin: 20px 0 30px;
+}
+
+.food-display-list{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+  row-gap: 50px;
+  column-gap: 20px;
+}

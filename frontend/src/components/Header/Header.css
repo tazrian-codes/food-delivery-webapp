@@ -44,3 +44,34 @@
 .header-contents button:hover{
   box-shadow: 2px 2px 5px rgba(79, 41, 8, 0.838);
 }
+
+
+@media (max-width: 440px) {
+  
+.header{
+  height: 35vw;
+  background: url(/header_img.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 30px 0;
+  position: relative;
+}
+
+.header-contents{
+  gap: 5px;
+}
+
+.header-contents h1{
+  font-size: 6vw;
+}
+
+.header-contents p{
+  font-size: 1.5vw;
+  display: none;
+}
+
+.header-contents button{
+  padding: 1.5vw 3vw;
+  font-size: 2.5vw;
+}
+}

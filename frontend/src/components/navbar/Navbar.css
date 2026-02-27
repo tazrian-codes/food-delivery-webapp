@@ -66,3 +66,44 @@
   top: -8px;
 }
 
+@media (max-width:440px) {
+  .navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.nav-logo{
+  height: 20px;
+}
+
+.navbar ul{
+  display: none;
+}
+
+.nav-right{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav-right img{
+  height: 15px;
+  cursor: pointer;
+}
+
+.nav-right button{
+  padding: 5px 15px;
+}
+
+.dot{
+  position: absolute;
+  background-color: #ff4c24;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  right: -8px;
+  top: -5px;
+}
+}

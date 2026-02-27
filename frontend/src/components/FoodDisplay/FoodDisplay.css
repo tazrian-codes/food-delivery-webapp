@@ -17,3 +17,9 @@
   row-gap: 50px;
   column-gap: 20px;
 }
+
+@media (max-width: 440px) {
+  .food-display h2{
+    font-size: 4vw;
+  }
+}

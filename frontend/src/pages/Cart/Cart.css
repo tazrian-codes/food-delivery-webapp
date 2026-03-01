@@ -10,10 +10,6 @@
   gap: 30px;
 }
 
-.cart-items-title p{
-  font-size: 10px;
-}
-
 .cart-items-item img{
   width: 50px;
   margin: 10px 0;
@@ -94,3 +90,8 @@
   }
 }
 
+@media (max-width: 440px) {
+  .cart-items-title p{
+    font-size: 10px;
+  }
+}

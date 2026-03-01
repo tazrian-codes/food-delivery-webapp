@@ -1,0 +1,43 @@
+.place-order{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.place-order-left .title{
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.place-order-left input{
+  padding: 5px 7px;
+  border: 1px solid #e2e2e2;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  width: 100%;
+  outline: none;
+  transition: 0.3s;
+}
+
+.place-order-left input:focus{
+  border: 1px solid tomato;
+}
+
+.place-order-left .multi-fields{
+  display: flex;
+  gap: 7px;
+}
+
+.email input{
+  flex: 1;
+}
+
+.place-order-right{
+  width: 100%;
+  max-width: 50%;
+}
+
+.place-order-right button{
+  margin-top: 20px;
+}

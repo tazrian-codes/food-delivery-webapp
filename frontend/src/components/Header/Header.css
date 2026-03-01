@@ -19,7 +19,7 @@
   animation: fadeIn 3s;
 }
 
-.header-contents h1, p {
+.header-contents h1, .header-text {
   color: white;
 }
 
@@ -48,14 +48,6 @@
 
 @media (max-width: 440px) {
   
-.header{
-  height: 35vw;
-  background: url(/header_img.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin: 30px 0;
-  position: relative;
-}
 
 .header-contents{
   gap: 5px;
